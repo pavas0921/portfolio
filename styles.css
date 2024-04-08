@@ -36,7 +36,7 @@ body {
 }
 
 .container_contact {
-    width: 80%;
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@ section h2 {
     justify-content: space-around;
     align-items: flex-start;
     margin-bottom: 20px;
-    
+
 }
 
 .project {
@@ -98,7 +98,7 @@ section h2 {
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
-    box-shadow: 1px 1px 2px 0.2px #918c8c6e; 
+    box-shadow: 1px 1px 2px 0.2px #918c8c6e;
     transition: transform 0.3s ease;
     border: 1px solid #ececec;
 }
@@ -128,34 +128,41 @@ footer {
     text-align: center;
 }
 
-.title{
+.title {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
 }
 
 
 
-.div_social{
-    width: 30%;
+.div_social {
+    width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.networks{
-    width: 30%;
+.networks {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
-.images{
-    width: 50%;
+.a-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    width: 80%;
 }
 
 .btn {
